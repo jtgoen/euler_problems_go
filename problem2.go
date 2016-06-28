@@ -1,0 +1,37 @@
+// problem2
+package euler
+
+import (
+	"fmt"
+)
+
+func fibonacci(n int, max int) int {
+	return 0
+}
+
+func problem2() {
+	evenFibTotal := 0
+
+	prev := 0
+	for i := 1; i <= 4000000; {
+		temp := i
+		i += prev
+		prev = temp
+
+		if i%2 == 0 {
+			evenFibTotal += i
+		}
+	}
+
+	fmt.Printf("The total is %d\n", evenFibTotal)
+}
+// problem2
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hello World!")
+}
