@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func problem1() {
+func problem1 int {
 	total := 0
 
 	for i := 1; i < 1000; i++ {
@@ -14,5 +14,5 @@ func problem1() {
 		}
 	}
 
-	fmt.Printf("The total is %d\n", total)
+	return total
 }

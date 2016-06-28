@@ -9,7 +9,7 @@ func fibonacci(n int, max int) int {
 	return 0
 }
 
-func problem2() {
+func problem2 int {
 	evenFibTotal := 0
 
 	prev := 0
@@ -23,15 +23,5 @@ func problem2() {
 		}
 	}
 
-	fmt.Printf("The total is %d\n", evenFibTotal)
-}
-// problem2
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println("Hello World!")
+	return evenFibTotal
 }

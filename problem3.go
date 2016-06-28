@@ -6,7 +6,7 @@ import (
 	"math"
 )
 
-func problem3() []int {
+func problem3 []int {
 	target := 600851475143
 	start := math.Floor(math.Sqrt(target))
 
